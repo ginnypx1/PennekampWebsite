@@ -1,0 +1,33 @@
+/********************************
+INDEX PAGE STYLING
+*********************************/
+
+/********************************PICTURE*/
+#mainPic { 
+    background: url("../img/bg/natural_green_paper_@2X.png"); /*dark green paper*/
+    border-top: 3px solid #1F3D00; /*darker green*/
+    border-bottom: 3px solid #1F3D00; /*darker green*/
+    text-align: center;
+}
+.MainPhoto {
+    border: 3px solid #1F3D00; /*darker green*/
+}
+
+/********************************FONTS*/
+ #mainPic p {
+    font-size: 3em;
+    font-family: serif;
+    letter-spacing: 0.1em;
+    color: white;
+    text-align: center;
+ }
+ .col-md-4 {
+    padding: 1% 0;
+    font-size: 1.25em;
+    text-align: center;
+ }
+
+/********************************PADDING*/
+ #mainPic p {
+    padding-top: 3%;
+ }

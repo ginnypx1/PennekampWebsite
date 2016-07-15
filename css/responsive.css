@@ -1,0 +1,41 @@
+/*PHONES to iPHONES*/
+@media screen and (max-width: 480px) {
+	body {
+		background-color: purple;
+	}
+}
+
+/*iPHONES to WINDOWS PHONES*/
+@media screen and (min-width: 480px) and (max-width: 640px) {
+	body {
+		background-color: red;
+	}
+	.main-menu ul {
+		-webkit-flex-direction: row;
+		flex-direction: row;
+		-webkit-justify-content: center;
+		justify-content: center;
+	}
+	.main-menu li {
+		width: 30%;
+	}	
+	.main-menu {
+		font-size: 1em;
+		flex-direction: column;
+	}
+}
+
+/*TABLETS to DESKTOP*/
+@media screen and (min-width: 640px) and (max-width: 1024px) {
+	body {
+	.main-menu {
+		font-size: 1.125em;
+	}
+}
+
+/*SMALL to LARGE DESKTOP*/
+@media screen and (min-width: 1300px) {
+	body {
+		background-color: green;
+	}
+}

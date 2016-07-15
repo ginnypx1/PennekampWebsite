@@ -1,0 +1,87 @@
+/********************************
+STANDARD PAGE RULES
+*********************************/
+* {
+	margin:0;
+	padding:0;
+} 
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px;
+	font-family: sans-serif;
+}
+#wrapper {
+	max-width: 1280px;
+	min-height: 22%;
+	position: relative;
+	margin-bottom: -40px;
+}
+#wrapper:after {
+	content: "";
+	display: block;
+}
+img {
+	max-width: 100%;
+}
+ul {
+	list-style: none;
+}
+a:visited {
+	color: #999;
+}
+
+/********************************
+NAVIGATION
+*********************************/
+.left{
+	background-color: #FF6600; /*burnt orange*/
+	border: 2px solid #993D00; /*darker orange*/
+}
+.center {
+	background-color: #990033; /*hot pink*/
+	border: 2px solid #5C001F; /*darker pink*/
+}
+.right {
+	background-color: #339999; /*teal*/
+	border: 2px solid #1F5C5C; /*darker teal*/
+}
+.main-menu ul li {
+	text-align: center;
+	font-size: 1.125em;
+	letter-spacing: 0.125em;
+	border-radius: 30px;
+}
+.main-menu li {
+	padding: 1em;
+	margin: 1em;
+}
+.main-menu a {
+	color: white;
+}
+/******FLEXBOX MAIN MENU NAV****************/
+.main-menu ul {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+}
+
+/********************************
+FOOTER
+*********************************/
+footer {
+	font-family: serif;
+	text-align: center;
+	padding-top: 1%;
+}
+footer,
+#wrapper:after {
+	height: 40px;
+}
+footer {
+	background: #CCC;
+	color: #999;
+}
