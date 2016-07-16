@@ -12,22 +12,3 @@ INDEX PAGE STYLING
 .MainPhoto {
     border: 3px solid #1F3D00; /*darker green*/
 }
-
-/********************************FONTS*/
- #mainPic p {
-    font-size: 3em;
-    font-family: serif;
-    letter-spacing: 0.1em;
-    color: white;
-    text-align: center;
- }
- .col-md-4 {
-    padding: 1% 0;
-    font-size: 1.25em;
-    text-align: center;
- }
-
-/********************************PADDING*/
- #mainPic p {
-    padding-top: 3%;
- }

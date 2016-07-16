@@ -68,7 +68,57 @@ NAVIGATION
 	-webkit-flex-direction: row;
 	flex-direction: row;
 }
-
+ #mainPic p {
+    font-size: 3em;
+    font-family: serif;
+    letter-spacing: 0.1em;
+    color: white;
+    text-align: center;
+ }
+ .col-md-4 {
+    padding: 1% 0;
+    font-size: 1.25em;
+    text-align: center;
+ }
+ #mainPic p {
+    padding-top: 3%;
+ }
+/******FLEXBOX GALLERIES****************/
+.flexbox {
+	margin: 5%;
+	text-align: center;
+}
+.flexbox ul {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.flexbox li {
+	padding: 0.5em;
+	margin: 0.5em;
+}
+.flexbox p {
+	padding: 2.5%;
+}
+/********************************
+PROFILE SECTION HEADINGS
+*********************************/
+h2 {
+	border: 2px solid gray;
+	border-radius: 30px;
+	padding: 1%;
+	font-size: 2em;
+	letter-spacing: 0.25em;
+}
+/********************************
+PROFILE SECTIONS
+*********************************/
+.profile-section {
+	margin: 5%;
+}
 /********************************
 FOOTER
 *********************************/

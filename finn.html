@@ -30,7 +30,7 @@
     <!-- Main Picture -->
     <div class="jumbotron" id="mainPic">
       <div class="container">
-        <img src="img/Finn/FinnMain.jpg" class="MainPhoto" alt="Findlay Robert Pennekamp">
+        <img src="img/Finn/FinnPic.jpg" class="MainPhoto" alt="Findlay Robert Pennekamp">
         <p>Findlay Robert Pennekamp, aka "Finn", is the coolest person on planet Earth</p>
       </div>
     </div>
@@ -45,27 +45,75 @@
         </ul>
       </div>
       <!-- Finn in Action -->
-      <section>
+      <section class="flexbox">
         <h2>Finn in Action</h2>
         <ul>
-          <li><a></a><p>PLAY Preschool</p></li>
-          <li><a href="http://www.gymnasticslosangeles.com/"></a><p>Klub Gymnastics</p></li>
-          <li><a></a><p>Rolling Robots</p></li>
-          <li><a></a><p>Treasure Hunting</p></li>
+          <li><a href="http://www.playsilverlake.com/">
+            <img src="img/Finn/PLAY.jpg" height=200 width=200 alt="Finn at school">
+            </a><p>PLAY Preschool</p>
+          </li>
+          <li><a href="http://www.gymnasticslosangeles.com/">
+            <img src="img/Finn/Klub.jpg" height=200 width=200 alt="Finn at gymnastics">
+            </a><p>Klub Gymnastics</p>
+          </li>
+          <li><a href="https://rollingrobots.com/">
+            <img src="img/Finn/Robots.jpg" height=200 width=200 alt="Finn at robot class">
+            </a><p>Rolling Robots</p>
+          </li>
+          <li><a href="http://www.rosebowlaquatics.com/">
+            <img src="img/Finn/Swim.jpg" height=200 width=200 alt="Finn at swim class">
+            </a><p>Swimming</p>
+          </li>
+          <li><a href="https://www.geocaching.com/">
+            <img src="img/Finn/Cache1.jpg" height=200 width=200 alt="Finn finds a geocache">
+          </a><p>Treasure Hunting</p>
+          </li>
         </ul>
       </section>
       <!-- Finn and Friends -->
-      <section>
+      <section class="flexbox">
         <h2>My Best Friends</h2>
         <ul>
-          <li><a></a><p>Juliette &amp; Margot</p></li>
-          <li><a></a><p>Asa</p></li>
-          <li><a></a><p>Julian</p></li>
-          <li><a></a><p>Mimi &amp; Sam</p></li>
+          <li><img src="img/Finn/Agata.jpg" height=200 width=200 alt="Ginny, Finn, Agata and Rich">
+            <p>Agata and Rich</p>
+          </li>
+          <li><img src="img/Finn/Asa.jpg" height=200 width=200 alt="Finn and Asa eat red vines">
+            <p>Asa</p>
+          </li>
+          <li><img src="img/Finn/Bradley.jpg" height=200 width=200 alt="Finn and Bradley play baseball">
+            <p>Bradley</p>
+          </li>
+          <li><img src="img/Finn/Cinderella.jpg" height=200 width=200 alt="Cinderella and Finn">
+            <p>Cinderella</p>
+          </li>
+          <li><img src="img/Finn/HoppsFox.jpg" height=200 width=200 alt="Judy Hopps, Nick Fox and Finn">
+            <p>Judy Hopps and Nick Fox</p>
+          </li>
+          <li><img src="img/Finn/Julian.jpg" height=200 width=200 alt="Finn and Julian in a box">
+            <p>Julian</p>
+          </li>
+          <li><img src="img/Finn/MimiSam.jpg" height=200 width=200 alt="Mimi, Finn, Sam and a cone">
+            <p>Mimi and Sam</p>
+          </li>
+          <li><img src="img/Finn/Penny.jpg" height=200 width=200 alt="Penny the fairy and Finn the volcano">
+            <p>Penny</p>
+          </li>
+          <li><img src="img/Finn/Rapunzel.jpg" height=200 width=200 alt="Finn and Rapunzel">
+            <p>Rapunzel</p>
+          </li>
+          <li><img src="img/Finn/Santa 5.jpg" height=200 width=200 alt="Finn and Santa Claus">
+            <p>Santa Claus</p>
+          </li>
+          <li><img src="img/Finn/Snoopy.jpg" height=200 width=200 alt="Snoopy and Finn">
+            <p>Snoopy</p>
+          </li>
+          <li><img src="img/Finn/Spiderman.jpg" height=200 width=200 alt="Finn and Spiderman">
+            <p>Spiderman</p>
+          </li>
         </ul>
       </section>
       <!-- Finn's Recommendations-->
-      <section>
+      <section class="profile-section">
         <h2>Cool Stuff You Should Check Out</h2>
         <ul>
           <li><a></a><p>Wall-E</p></li>
@@ -74,12 +122,12 @@
         </ul>
       </section>
       <!-- Finn's Name Generator -->
-      <section>
+      <section class="profile-section">
         <h2>Finn's Pennekamp Name Generator</h2>
-        <button id="nameGenerator" onClick="nameGenerate();">Get Your Pennekamp Name!</button>
+        <button id="nameGenerator" class="right" onClick="nameGenerate();">Get Your Pennekamp Name!</button>
       </section>
       <!-- Truck Draw -->
-      <section class="TruckDraw">
+      <section class="TruckDraw profile-section">
         <h2>Draw a Truck!</h2>
           <canvas width="600" height="400"></canvas>
           <div class="controls">
@@ -117,5 +165,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/NameGeneratorJS.js"></script>
+    <script src="js/TruckDrawJS.js"></script>
   </body>
 </html>
