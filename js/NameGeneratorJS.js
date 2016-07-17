@@ -1,19 +1,20 @@
 
-var middleNames = ["Quinesanes", "Quntz", "Buttlet", "Buttnik"];
+var middleNames = ["Quinesanes", "Quntz", "Buttlet", "Buttnik", "Butt"];
 var lastName = "Robert Pennekamp";
 var yourName = [];
 var k = 0;
 
+$("#nameGenerator").click(function() {
+	// clear field
+	$("#display-name").text(" ");
+	// grab input value
+	var firstName = $('input:text').val();
+	// generate middle name
+	var randomPick = Math.floor(Math.random() * middleNames.length);
+	yourName = middleNames[randomPick];
+	// generate full name
+	var displayName = ("Hi " + firstName + " " + yourName + " " + lastName + "!");
+	// display name
+	$("#display-name").append(displayName);
+}); // end click function
 
-function nameGenerate() {
-	//generates first name
-	var firstNames = prompt("What is your first name?", "Finn");
-	//middle name generator
-	
-		//random picks one of the name versions
-		var randomPick = Math.round(Math.random())
-		yourName = middleNames[randomPick];
-		
-	//displays full name
-	alert("Hi " + firstNames + " " + yourName + " " + lastName + "!");
-}
