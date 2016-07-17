@@ -89,3 +89,10 @@ canvas {
     height: 52px;
     width: 52px;
 }
+/********************************SOCIAL MEDIA*/
+.social-media li {
+    font-size: 3em;
+}
+.social-media a {
+    color: #339999;
+}
