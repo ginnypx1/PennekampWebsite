@@ -89,6 +89,64 @@ canvas {
     height: 52px;
     width: 52px;
 }
+
+/********************************ANIMATION*/
+
+#finn-social-media img:hover {
+    -webkit-transform: scale(2, 2) rotate(1turn);
+    transform: rotate(1turn);
+}
+
+#finn-social-media img {
+    -webkit-transition: 0.5s linear;
+    transition: 0.5s linear;
+}
+/***truck drive***/
+.animate {
+    height: 2.5em;
+}
+
+.street-sweeper {
+    width: 6.5em;
+    height: 5em;
+    border: none;
+    position: absolute;
+    left: 85%;
+    bottom: 9%;
+    -webkit-animation: drive 10s linear infinite;
+    animation: drive 10s linear infinite;
+}
+
+.fire-truck {
+    width: 6em;
+    height: 5em;
+    border: none;
+    position: absolute;
+    left: 85%;
+    bottom: 9%;
+    -webkit-animation: drive 10s linear 2.25s infinite;
+    animation: drive 10s linear 2.25s infinite;
+}
+
+.garbage-truck {
+    width: 6em;
+    height: 5em;
+    border: none;
+    position: absolute;
+    left: 85%;
+    bottom: 9%;
+    -webkit-animation: drive 10s linear 4.5s infinite;
+    animation: drive 10s linear 4.5s infinite;
+}
+
+@-webkit-keyframes drive {
+    0% {left: 85%}
+    100% {left: 5%}
+}
+@keyframes drive {
+    0% {left: 85%}
+    100% {left: 5%}
+}
 /********************************SOCIAL MEDIA*/
 .social-media li {
     font-size: 3em;
