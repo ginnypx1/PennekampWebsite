@@ -1,35 +1,78 @@
 /*PHONES to iPHONES*/
 @media screen and (max-width: 480px) {
-	/*body {
+	body {
 		background-color: purple;
-	}*/
+	}
+	/*************************MAIN NAV*/
 	.main-menu ul {
 		-webkit-flex-direction: column;
 		flex-direction: column;
+	}
+	/*************************SECTION FLEXBOX*/
+	.flexbox img {
+		width: 150px;
+		height: 150px;
+	}
+	.flexbox h2 {
+		font-size: 1.5em;
+	}
+	/*************************FINN INDEX*/
+	#display-name {
+		font-size: 1.5em;
+	}
+	#nameGenerator {
+		font-size: 1.1em;
+	}
+	.street-sweeper,
+	.garbage-truck,
+	.fire-truck {
+	    width: 4em;
+	    height: 3em;
+	    bottom: 4.5%;
+	}
+	.social-media li {
+		font-size: 2em;
 	}
 }
 
 /*iPHONES to WINDOWS PHONES*/
 @media screen and (min-width: 480px) and (max-width: 768px) {
-	/*body {
+	body {
 		background-color: red;
-	}*/
+	}
+	/*************************MAIN NAV*/
 	.main-menu ul {
 		-webkit-flex-direction: column;
 		flex-direction: column;
 	}	
+	/*************************FINN INDEX*/
+	.street-sweeper,
+	.garbage-truck,
+	.fire-truck {
+	    width: 4em;
+	    height: 3em;
+	    bottom: 5%;
+	}
 }
 
 /*TABLETS to DESKTOP*/
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-	/*body {
+	body {
 		background-color: yellow;
-	}*/
+	}
+	/*************************FINN INDEX*/
+	.street-sweeper,
+	.garbage-truck,
+	.fire-truck {
+	    width: 5em;
+	    height: 4em;
+	    bottom: 7.5%;
+	}
 }
 
 /*SMALL to LARGE DESKTOP*/
 @media screen and (min-width: 1300px) {
-	/*body {
+	body {
 		background-color: green;
-	}*/
+	}
 }

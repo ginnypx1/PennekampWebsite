@@ -22,6 +22,11 @@ h2 {
 .flexbox p {
     color: #339999; /*teal*/
 }
+/********************************IMG*/
+.flexbox img {
+    width: 200px;
+    height: 200px;
+}
 
 /********************************NAME GENERATOR*/
 #nameGenerator {
@@ -51,6 +56,7 @@ label {
 /*CANVAS*/
 canvas {
     display: block;
+    width: 75%;
     margin: 1% auto;
     border: 2px solid gray;
     border-radius: 30px;
@@ -106,17 +112,8 @@ canvas {
     height: 2.5em;
 }
 
-.street-sweeper {
-    width: 6.5em;
-    height: 5em;
-    border: none;
-    position: absolute;
-    left: 85%;
-    bottom: 9%;
-    -webkit-animation: drive 10s linear infinite;
-    animation: drive 10s linear infinite;
-}
-
+.street-sweeper,
+.garbage-truck,
 .fire-truck {
     width: 6em;
     height: 5em;
@@ -124,17 +121,20 @@ canvas {
     position: absolute;
     left: 85%;
     bottom: 9%;
+}
+
+.street-sweeper {
+    width: 6.5em;
+    -webkit-animation: drive 10s linear infinite;
+    animation: drive 10s linear infinite;
+}
+
+.fire-truck {
     -webkit-animation: drive 10s linear 2.25s infinite;
     animation: drive 10s linear 2.25s infinite;
 }
 
 .garbage-truck {
-    width: 6em;
-    height: 5em;
-    border: none;
-    position: absolute;
-    left: 85%;
-    bottom: 9%;
     -webkit-animation: drive 10s linear 4.5s infinite;
     animation: drive 10s linear 4.5s infinite;
 }

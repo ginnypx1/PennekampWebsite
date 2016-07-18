@@ -13,7 +13,7 @@ $("#nameGenerator").click(function() {
 	var randomPick = Math.floor(Math.random() * middleNames.length);
 	yourName = middleNames[randomPick];
 	// generate full name
-	var displayName = ("Hi " + firstName + " " + yourName + " " + lastName + "!");
+	var displayName = ("Hi, " + firstName + " " + yourName + " " + lastName + "!");
 	// display name
 	$("#display-name").append(displayName);
 }); // end click function
