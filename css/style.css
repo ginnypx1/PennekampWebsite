@@ -29,9 +29,6 @@ img {
 ul {
 	list-style: none;
 }
-a:visited {
-	color: #999;
-}
 
 /********************************
 NAVIGATION
@@ -103,9 +100,63 @@ NAVIGATION
 .flexbox p {
 	padding: 2.5%;
 }
-/********************************
-SOCIAL MEDIA ICONS
-*********************************/
+/*****************************MOVIE POSTERS*/
+.card {
+    width: 47%;
+    padding: 0;
+    margin-left: 3%;
+}
+.poster,
+.side-b {
+    height: 50em;
+}
+.movie-details,
+.still-shot {
+    width: 50%;
+}
+.movie-details{
+    display: block;
+    margin: 2em auto;
+    font-size: 1.25em;
+}
+.side-b {
+    padding-top: 5em;
+}
+#imdb-link {
+    height: 3em;
+}
+.movie-title {
+    font-size: 2em;
+}
+/******MOVIE POSTER ANIMATION****************/
+body {
+    -webkit-perspective: 800px;
+    perspective: 800px;
+}
+.card {
+    transition: -webkit-transform 1s ease-in;
+    transition: transform 1s ease-in;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+.card div {
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.side-a {
+    z-index: 100;
+}
+.side-b {
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+}
+.card:hover {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+/********************************SOCIAL MEDIA ICONS*/
 @font-face {
     font-family: 'icomoon';
     src:    url('../fonts/icomoon.eot?dg84my');
@@ -199,5 +250,7 @@ footer,
 }
 footer {
 	background: #CCC;
-	color: #999;
+}
+footer a {
+    color: #999;
 }

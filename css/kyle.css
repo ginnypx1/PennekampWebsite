@@ -1,0 +1,113 @@
+/********************************
+KYLE PAGE STYLING
+*********************************/
+
+/********************************MAIN PICTURE*/
+#mainPic { 
+    background-color: #FF6600; /*burnt orange*/
+    border-top: 3px solid #993D00; /*darker orange*/
+    border-bottom: 3px solid #993D00; /*darker orange*/
+    text-align: center;
+}
+.MainPhoto,
+img {
+    border: 3px solid #993D00; /*darker orange*/
+}
+
+/********************************FONTS*/
+h2 {
+    text-align: center;
+    color: #333;
+    margin: 1% 5%;
+}
+/*******************************MOVIE POSTERS*/
+#kyle-side-b,
+.still-shot {
+    border: 2px solid #993D00; /*darker orange*/
+} 
+#poster-section {
+    height: 50em;
+    text-align: center;
+}
+.movie-title {
+    color: #993D00; /*darker orange*/
+}
+.movie-details a {
+    color: #444;
+}
+.movie-details:visited,
+.movie-details:hover {
+    color: #333;
+}
+#imdb-link a {
+    font-size: 1.5em;
+    color: #993D00; /*darker orange*/
+}
+/*******************************SCRIPT SECTION*/ 
+.screenplay:hover{
+    background-color: #FFE0CC; /*very light orange*/
+}   
+.year,
+.screenplay {
+    width: 140px;
+    height: 200px;
+    margin: 0.5% 0.5%;
+    text-align: center;
+    border: 1px solid #993D00;
+}
+
+.screenplay ul {
+    display: none;
+}
+
+.screenplay a {
+    text-decoration: underline;
+}
+
+.year {
+    font-size: 2em;
+    font-style: bold;
+    padding-top: 70px;
+    font-family: 'Muli', sans-serif;
+    color: #FF6600;
+}
+
+.script_title {
+    font-size: 0.85em;
+    padding-top: 40px;
+    font-family: Courier;   
+}
+
+/******FLEXBOX SCRIPT NAV****************/
+.KyleScreenplays  {
+    margin: 0.5% 2.5%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+
+/******OVERLAY****************/
+#overlay {
+    background: white;
+    width:650px;
+    height:300px;
+    position:absolute;
+    top:25%;
+    left:17%;
+    display:none;
+    text-align:center;
+    border: 1px solid #993D00;
+}
+
+#overlay ul {
+    margin: 15px 0 0 0; 
+    padding: 0;
+}
+
+#overlay li {
+    padding: 15px 0;
+}
