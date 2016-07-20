@@ -37,27 +37,45 @@
 	    bottom: 4.5%;
 	}
 	/*************************KYLE INDEX*/
+	/*Kyle Movies*/
 	#kyle-movies {
-		height: 30%;
+		height: 75em;
+	}
+	#poster-section {
+		height: 70em;
+	}
+	#kyle-movies ul {
+		-webkit-flex-direction: row;
+		flex-direction: row;
+	}
+	.side-a img {
+		width: 100%;
+		height: 100%;
 	}
 	.card,
-	#poster-section,
-	.side-a img {
-		height: 20em;
+	.poster {
+		width: 90%;
+	    height: 33em;
 	}
 	.side-b {
-		height: 28em;
-		font-size: 0.75em;
-	}
+		width: 90%;
+		height: 33em;
+        font-size: 1em;
+    }
 	.still-shot {
-		display: none;
-	}
+        display: none;
+    }
+	/*Kyle Screenplays*/
 	.year {
 		display: none;
 	}
 	.KyleScreenplays {
 		margin: 5% 12%;
 	}
+	#overlay {
+		top: 35%;
+	}
+	/*Kyle Recs*/
 	#kyle-rec-section {
 		font-size: 0.75em;
 	}
@@ -86,32 +104,48 @@
 	    bottom: 5%;
 	}
 	/*************************KYLE INDEX*/
-	.card,
-	#poster-section,
-	.side-a img {
-		height: 30em;
+	/*Kyle Movies*/
+	#kyle-movies {
+		height: 115em;
+	}
+	#poster-section {
+		height: 110em;
+	}
+	#kyle-movies ul {
+		-webkit-flex-direction: row;
+		flex-direction: row;
 	}
 	.side-a img {
 		width: 100%;
+		height: 100%;
+	}
+	.card,
+	.poster {
+		width: 90%;
+	    height: 53em;
 	}
 	.side-b {
-		height: 30em;
-	}
-	.still-shot {
-		display: none;
-	}
+		width: 90%;
+		height: 53em;
+        font-size: 1em;
+    }
+	/*Kyle Screenplays*/
 	.year {
 		display: none;
 	}
 	.KyleScreenplays {
 		margin: 1% 15%;
 	}
+	/*Kyle Recs*/
 	#kyle-rec-section {
 		font-size: 0.75em;
 	}
 	#kyle-rec-section img {
 		width: 120px;
 		height: 120px;
+	}
+	#overlay {
+		top: 55%;
 	}
 }
 
@@ -127,6 +161,31 @@
 	    width: 5em;
 	    height: 4em;
 	    bottom: 7.5%;
+	}
+	/*************************KYLE INDEX*/
+	/*Kyle Movies*/
+	#kyle-movies {
+		height: 50em;
+	}
+	#poster-section {
+		height: 45em;
+	}
+	.side-b {
+		width: 90%;
+		height: 60em;
+        font-size: 0.75em;
+    }
+	.card,
+	.poster {
+		width: 47%;
+	}
+	.side-a img {
+		width: 100%;
+		height: 100%;
+	}
+	/*Kyle Screenplay*/
+	#overlay {
+		top: 40%;
 	}
 }
 

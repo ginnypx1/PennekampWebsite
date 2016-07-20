@@ -22,8 +22,11 @@ h2 {
     color: #333;
     margin: 1% 5%;
 }
+.validation-only {
+    display: none;
+}
 /*******************************MOVIE POSTERS*/
-#kyle-side-b {
+.side-b {
     border: 1px solid #993D00; /*darker orange*/
 } 
 #poster-section {
@@ -64,7 +67,6 @@ h2 {
 }
 .year {
     font-size: 2em;
-    font-style: bold;
     padding-top: 70px;
     font-family: 'Muli', sans-serif;
     color: #FF6600;
@@ -109,7 +111,7 @@ h2 {
 #overlay a {
     color: #999;
 }
-#exit-button {
+.exit-button {
     font-size: 0.75em;
     text-align: center;
     color: #FF6600;
