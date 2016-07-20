@@ -8,6 +8,12 @@
 		-webkit-flex-direction: column;
 		flex-direction: column;
 	}
+	h2 {
+		font-size: 1.5em;
+	}
+	.social-media li {
+		font-size: 1.5em;
+	}
 	/*************************SECTION FLEXBOX*/
 	.flexbox img {
 		width: 150px;
@@ -30,8 +36,34 @@
 	    height: 3em;
 	    bottom: 4.5%;
 	}
-	.social-media li {
-		font-size: 2em;
+	/*************************KYLE INDEX*/
+	#kyle-movies {
+		height: 30%;
+	}
+	.card,
+	#poster-section,
+	.side-a img {
+		height: 20em;
+	}
+	.side-b {
+		height: 28em;
+		font-size: 0.75em;
+	}
+	.still-shot {
+		display: none;
+	}
+	.year {
+		display: none;
+	}
+	.KyleScreenplays {
+		margin: 5% 12%;
+	}
+	#kyle-rec-section {
+		font-size: 0.75em;
+	}
+	#kyle-rec-section img {
+		width: 120px;
+		height: 120px;
 	}
 }
 
@@ -52,6 +84,34 @@
 	    width: 4em;
 	    height: 3em;
 	    bottom: 5%;
+	}
+	/*************************KYLE INDEX*/
+	.card,
+	#poster-section,
+	.side-a img {
+		height: 30em;
+	}
+	.side-a img {
+		width: 100%;
+	}
+	.side-b {
+		height: 30em;
+	}
+	.still-shot {
+		display: none;
+	}
+	.year {
+		display: none;
+	}
+	.KyleScreenplays {
+		margin: 1% 15%;
+	}
+	#kyle-rec-section {
+		font-size: 0.75em;
+	}
+	#kyle-rec-section img {
+		width: 120px;
+		height: 120px;
 	}
 }
 
