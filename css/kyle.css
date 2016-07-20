@@ -1,6 +1,9 @@
 /********************************
 KYLE PAGE STYLING
 *********************************/
+img {
+    border: 1px solid #993D00; /*darker orange*/
+}
 
 /********************************MAIN PICTURE*/
 #mainPic { 
@@ -9,8 +12,7 @@ KYLE PAGE STYLING
     border-bottom: 3px solid #993D00; /*darker orange*/
     text-align: center;
 }
-.MainPhoto,
-img {
+.MainPhoto {
     border: 3px solid #993D00; /*darker orange*/
 }
 
@@ -21,9 +23,8 @@ h2 {
     margin: 1% 5%;
 }
 /*******************************MOVIE POSTERS*/
-#kyle-side-b,
-.still-shot {
-    border: 2px solid #993D00; /*darker orange*/
+#kyle-side-b {
+    border: 1px solid #993D00; /*darker orange*/
 } 
 #poster-section {
     height: 50em;
@@ -55,15 +56,12 @@ h2 {
     text-align: center;
     border: 1px solid #993D00;
 }
-
 .screenplay ul {
     display: none;
 }
-
 .screenplay a {
     text-decoration: underline;
 }
-
 .year {
     font-size: 2em;
     font-style: bold;
@@ -71,7 +69,6 @@ h2 {
     font-family: 'Muli', sans-serif;
     color: #FF6600;
 }
-
 .script_title {
     font-size: 0.85em;
     padding-top: 40px;
@@ -89,7 +86,6 @@ h2 {
     flex-wrap: wrap;
 }
 
-
 /******OVERLAY****************/
 #overlay {
     background: black;
@@ -103,22 +99,28 @@ h2 {
     text-align:center;
     border: 1px solid #993D00;
 }
-
 #overlay ul {
     margin: 15px 0 0 0; 
     padding: 0;
 }
-
 #overlay li {
     padding: 15px 0;
 }
-
 #overlay a {
     color: #999;
 }
-
 #exit-button {
     font-size: 0.75em;
     text-align: center;
     color: #FF6600;
 }
+/*******************************RECS SECTION*/ 
+#kyle-rec-section img {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #993D00;
+}
+/*******************************SOCIAL MEDIA*/
+.social-media a {
+    color: #FF6600; /*burnt orange*/
+} 
