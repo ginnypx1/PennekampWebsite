@@ -129,6 +129,17 @@ NAVIGATION
 .movie-title {
     font-size: 2em;
 }
+#poster-section {
+    height: 50em;
+    text-align: center;
+}
+.movie-details a {
+    color: #444;
+}
+.movie-details:visited,
+.movie-details:hover {
+    color: #333;
+}
 /******MOVIE POSTER ANIMATION****************/
 body {
     -webkit-perspective: 800px;

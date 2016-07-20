@@ -83,6 +83,23 @@
 		width: 120px;
 		height: 120px;
 	}
+	/*************************Ginny INDEX*/
+	/*Ginny Movies*/
+	#ginny-movies {
+		height: 75em;
+	}
+	#ginny-movies ul {
+		-webkit-flex-direction: row;
+		flex-direction: row;
+	}
+	/*Ginny Recs*/
+	#ginny-rec-section {
+		font-size: 0.75em;
+	}
+	#ginny-rec-section img {
+		width: 120px;
+		height: 120px;
+	}
 }
 
 /*iPHONES to WINDOWS PHONES*/
@@ -147,6 +164,23 @@
 	#overlay {
 		top: 55%;
 	}
+	/*************************Ginny INDEX*/
+	/*Ginny Movies*/
+	#ginny-movies {
+		height: 115em;
+	}
+	#ginny-movies ul {
+		-webkit-flex-direction: row;
+		flex-direction: row;
+	}
+	/*Ginny Recs*/
+	#ginny-rec-section {
+		font-size: 0.75em;
+	}
+	#ginny-rec-section img {
+		width: 120px;
+		height: 120px;
+	}
 }
 
 /*TABLETS to DESKTOP*/
@@ -186,6 +220,11 @@
 	/*Kyle Screenplay*/
 	#overlay {
 		top: 40%;
+	}
+	/*************************GINNY INDEX*/
+	/*Ginny Movies*/
+	#ginny-movies {
+		height: 50em;
 	}
 }
 

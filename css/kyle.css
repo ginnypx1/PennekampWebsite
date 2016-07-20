@@ -29,19 +29,8 @@ h2 {
 .side-b {
     border: 1px solid #993D00; /*darker orange*/
 } 
-#poster-section {
-    height: 50em;
-    text-align: center;
-}
 .movie-title {
     color: #993D00; /*darker orange*/
-}
-.movie-details a {
-    color: #444;
-}
-.movie-details:visited,
-.movie-details:hover {
-    color: #333;
 }
 #imdb-link a {
     font-size: 1.5em;
@@ -86,6 +75,7 @@ h2 {
     flex-direction: row;
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 /******OVERLAY****************/

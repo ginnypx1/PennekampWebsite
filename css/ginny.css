@@ -1,0 +1,45 @@
+/********************************
+GINNY PAGE STYLING
+*********************************/
+
+/********************************MAIN PICTURE*/
+#mainPic { 
+    background-color: #990033; /*hot pink*/
+    border-top: 3px solid #5C001F; /*darker pink*/
+    border-bottom: 3px solid #5C001F; /*darker pink*/
+    text-align: center;
+}
+.MainPhoto {
+    border: 3px solid #5C001F; /*darker pink*/
+}
+h2 {
+    color: #5C001F; /*darker pink*/
+} 
+/*******************************MOVIE POSTERS*/
+.side-b {
+    border: 1px solid #5C001F; /*darker pink*/
+} 
+.movie-title {
+    color: #5C001F; /*darker pink*/
+}
+#imdb-link {
+    height: 6em;
+}
+#imdb-link p {
+    margin: 0;
+    padding: 1em 0;
+}
+#imdb-link a {
+    font-size: 1.5em;
+    color: #5C001F; /*darker pink*/
+}
+/*******************************RECS SECTION*/ 
+#ginny-rec-section img {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #990033; /*hot pink*/
+}
+/*******************************SOCIAL MEDIA*/
+.social-media a {
+    color: #990033; /*hot pink*/
+} 
