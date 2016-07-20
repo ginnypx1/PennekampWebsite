@@ -80,7 +80,7 @@ h2 {
 
 /******FLEXBOX SCRIPT NAV****************/
 .KyleScreenplays  {
-    margin: 0.5% 2.5%;
+    margin: 0.5% 7%;
     display: -webkit-flex;
     display: flex;
     -webkit-flex-direction: row;
@@ -92,12 +92,13 @@ h2 {
 
 /******OVERLAY****************/
 #overlay {
-    background: white;
-    width:650px;
-    height:300px;
+    background: black;
+    color: white;
+    width:50%;
+    height:10%;
     position:absolute;
-    top:25%;
-    left:17%;
+    top:45%;
+    left:25%;
     display:none;
     text-align:center;
     border: 1px solid #993D00;
@@ -110,4 +111,14 @@ h2 {
 
 #overlay li {
     padding: 15px 0;
+}
+
+#overlay a {
+    color: #999;
+}
+
+#exit-button {
+    font-size: 0.75em;
+    text-align: center;
+    color: #FF6600;
 }

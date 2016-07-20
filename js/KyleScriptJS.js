@@ -17,7 +17,7 @@ $(".screenplay").click(function(){
 
 
 //2. When overlay is clicked
-$overlay.click(function(){
+$(overlay).click(function(){
 	//2.1 Hide overlay
 	$overlay.hide();
 	$overlay.empty();
