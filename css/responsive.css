@@ -1,8 +1,8 @@
 /*PHONES to iPHONES*/
 @media screen and (max-width: 480px) {
-	body {
+	/*body {
 		background-color: purple;
-	}
+	}*/
 	/*************************MAIN NAV*/
 	.main-menu ul {
 		-webkit-flex-direction: column;
@@ -34,7 +34,7 @@
 	.fire-truck {
 	    width: 4em;
 	    height: 3em;
-	    bottom: 4.5%;
+	    bottom: 4%;
 	}
 	/*************************KYLE INDEX*/
 	/*Kyle Movies*/
@@ -84,9 +84,15 @@
 		height: 120px;
 	}
 	/*************************Ginny INDEX*/
+	/*Ginny fonts*/
+	.ginny-web p,
+	#ginny-movies p {
+	    font-size: 1em;
+	    margin: 1% 10%;
+	}
 	/*Ginny Movies*/
 	#ginny-movies {
-		height: 75em;
+		height: 85em;
 	}
 	#ginny-movies ul {
 		-webkit-flex-direction: row;
@@ -100,13 +106,19 @@
 		width: 120px;
 		height: 120px;
 	}
+	#ginny-rec-section h2 {
+    	font-size: 2em;
+	}
+	.ginny-social-media a {
+		font-size: 0.75em;
+	}
 }
 
 /*iPHONES to WINDOWS PHONES*/
 @media screen and (min-width: 480px) and (max-width: 768px) {
-	body {
+	/*body {
 		background-color: red;
-	}
+	}*/
 	/*************************MAIN NAV*/
 	.main-menu ul {
 		-webkit-flex-direction: column;
@@ -167,7 +179,7 @@
 	/*************************Ginny INDEX*/
 	/*Ginny Movies*/
 	#ginny-movies {
-		height: 115em;
+		height: 130em;
 	}
 	#ginny-movies ul {
 		-webkit-flex-direction: row;
@@ -185,9 +197,9 @@
 
 /*TABLETS to DESKTOP*/
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-	body {
+	/*body {
 		background-color: yellow;
-	}
+	}*/
 	/*************************FINN INDEX*/
 	.street-sweeper,
 	.garbage-truck,
@@ -224,7 +236,7 @@
 	/*************************GINNY INDEX*/
 	/*Ginny Movies*/
 	#ginny-movies {
-		height: 50em;
+		height: 65em;
 	}
 }
 

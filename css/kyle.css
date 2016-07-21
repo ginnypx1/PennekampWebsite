@@ -1,10 +1,6 @@
 /********************************
 KYLE PAGE STYLING
 *********************************/
-img {
-    border: 1px solid #993D00; /*darker orange*/
-}
-
 /********************************MAIN PICTURE*/
 #mainPic { 
     background-color: #FF6600; /*burnt orange*/
@@ -15,7 +11,9 @@ img {
 .MainPhoto {
     border: 3px solid #993D00; /*darker orange*/
 }
-
+img {
+    border: 1px solid #993D00; /*darker orange*/
+}
 /********************************FONTS*/
 h2 {
     text-align: center;
@@ -24,6 +22,10 @@ h2 {
 }
 .validation-only {
     display: none;
+}
+/********************************LINKS*/
+#imdb-link a:hover {
+    color: #FF6600; /*burnt orange*/;
 }
 /*******************************MOVIE POSTERS*/
 .side-b {
@@ -107,6 +109,9 @@ h2 {
     color: #FF6600;
 }
 /*******************************RECS SECTION*/ 
+#kyle-rec-section {
+    font-size: 0.75em;
+}
 #kyle-rec-section img {
     width: 150px;
     height: 150px;

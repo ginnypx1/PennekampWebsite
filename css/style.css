@@ -58,6 +58,9 @@ NAVIGATION
 .main-menu a {
 	color: white;
 }
+.main-menu a:hover {
+    color: #E6E6E6;
+}
 /******FLEXBOX MAIN MENU NAV****************/
 .main-menu ul {
 	display: -webkit-flex;
@@ -82,7 +85,7 @@ NAVIGATION
  }
 /******FLEXBOX GALLERIES****************/
 .flexbox {
-	margin: 5%;
+	margin: 0 5%;
 	text-align: center;
 }
 .flexbox ul {
@@ -124,7 +127,7 @@ NAVIGATION
     padding-top: 5em;
 }
 #imdb-link {
-    height: 3em;
+    height: 4em;
 }
 .movie-title {
     font-size: 2em;
@@ -136,9 +139,8 @@ NAVIGATION
 .movie-details a {
     color: #444;
 }
-.movie-details:visited,
-.movie-details:hover {
-    color: #333;
+.movie-details a:hover {
+    color: #888;
 }
 /******MOVIE POSTER ANIMATION****************/
 body {
@@ -236,11 +238,12 @@ body {
 PROFILE SECTION HEADINGS
 *********************************/
 h2 {
-	border: 2px solid gray;
+	border: 1px solid gray;
 	border-radius: 30px;
 	padding: 1%;
 	font-size: 2em;
 	letter-spacing: 0.25em;
+    text-align: center;
 }
 /********************************
 PROFILE SECTIONS

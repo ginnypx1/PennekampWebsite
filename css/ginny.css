@@ -12,34 +12,69 @@ GINNY PAGE STYLING
 .MainPhoto {
     border: 3px solid #5C001F; /*darker pink*/
 }
+
+/*******************************FONTS*/
 h2 {
     color: #5C001F; /*darker pink*/
 } 
+.ginny-web p,
+#ginny-movies p {
+    font-size: 1.25em;
+    margin: 1% 10%;
+}
+.movie-title {
+    color: #5C001F; /*darker pink*/
+}
+#ginny-rec-section h2 {
+    font-size: 2.75em;
+}
+/*******************************LINKS*/
+.ginny-web a {
+    color: #5C001F; /*darker pink*/
+}
+.ginny-web a:hover {
+    color: #990033; /*hot pink*/;
+}
+#imdb-link a {
+    font-size: 1.25em;
+    color: #5C001F; /*darker pink*/
+}
+#imdb-link a:hover {
+    color: #990033; /*hot pink*/;
+}
+.social-media a {
+    color: #990033; /*hot pink*/
+} 
+/*******************************CODE PROJECTS*/
+.ginny-web {
+    margin: 2% 5%;
+}
+.ginny-web ul {
+    margin: 2% 5%;
+    color: #999;
+    font-size: 1.25em;
+    text-align: center;
+}
+
 /*******************************MOVIE POSTERS*/
 .side-b {
     border: 1px solid #5C001F; /*darker pink*/
 } 
-.movie-title {
-    color: #5C001F; /*darker pink*/
-}
 #imdb-link {
-    height: 6em;
+    height: 8em;
 }
 #imdb-link p {
     margin: 0;
     padding: 1em 0;
 }
-#imdb-link a {
-    font-size: 1.5em;
-    color: #5C001F; /*darker pink*/
-}
+
 /*******************************RECS SECTION*/ 
+#ginny-rec-section {
+    font-size: 0.75em;
+}
 #ginny-rec-section img {
     width: 150px;
     height: 150px;
     border: 1px solid #990033; /*hot pink*/
 }
-/*******************************SOCIAL MEDIA*/
-.social-media a {
-    color: #990033; /*hot pink*/
-} 
+
