@@ -57,7 +57,11 @@ h2 {
 }
 
 /*******************************MOVIE POSTERS*/
+.side-a img {
+    border: 1px solid #5C001F; /*darker pink*/
+}
 .side-b {
+    width: 90%;
     border: 1px solid #5C001F; /*darker pink*/
 } 
 #imdb-link {
