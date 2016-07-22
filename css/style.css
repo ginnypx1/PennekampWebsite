@@ -18,6 +18,7 @@ html {
 	min-height: 24%;
 	position: relative;
 	margin-bottom: -40px;
+    z-index: -1;
 }
 #wrapper:after {
 	content: "";
@@ -268,4 +269,8 @@ footer {
 }
 footer a {
     color: #999;
+    z-index: 100;
+}
+footer a:hover {
+    color: #666;
 }
