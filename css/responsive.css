@@ -242,7 +242,7 @@
 
 /*SMALL to LARGE DESKTOP*/
 @media screen and (min-width: 1300px) {
-	body {
+	/*body {
 		background-color: green;
-	}
+	}*/
 }
