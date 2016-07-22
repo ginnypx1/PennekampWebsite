@@ -9,9 +9,11 @@ FINN PAGE STYLING
     border-bottom: 3px solid #1F5C5C; /*darker teal*/
     text-align: center;
 }
-.MainPhoto,
-img {
+.MainPhoto {
     border: 3px solid #1F5C5C; /*darker teal*/
+}
+img {
+    border: 1px solid #1F5C5C; /*darker teal*/
 }
 
 /********************************FONTS*/
