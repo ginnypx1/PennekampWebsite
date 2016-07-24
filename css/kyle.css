@@ -39,6 +39,16 @@ h2 {
     color: #993D00; /*darker orange*/
 }
 /*******************************SCRIPT SECTION*/ 
+.no-show {
+    height: 0;
+}
+.md-modal {
+    position: relative;
+    top: 10em;
+}
+.md-modal a {
+    color: #E6E6E6;
+}
 .screenplay:hover{
     background-color: #FFE0CC; /*very light orange*/
 }   
@@ -80,34 +90,6 @@ h2 {
     justify-content: center;
 }
 
-/******OVERLAY****************/
-#overlay {
-    background: black;
-    color: white;
-    width:50%;
-    height:10%;
-    position:absolute;
-    top:45%;
-    left:25%;
-    display:none;
-    text-align:center;
-    border: 1px solid #993D00;
-}
-#overlay ul {
-    margin: 15px 0 0 0; 
-    padding: 0;
-}
-#overlay li {
-    padding: 15px 0;
-}
-#overlay a {
-    color: #999;
-}
-.exit-button {
-    font-size: 0.75em;
-    text-align: center;
-    color: #FF6600;
-}
 /*******************************RECS SECTION*/ 
 #kyle-rec-section {
     font-size: 0.75em;

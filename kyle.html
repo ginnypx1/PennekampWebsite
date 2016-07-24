@@ -13,6 +13,9 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Nifty Modal -->
+    <link rel="stylesheet" type="text/css" href="js/ModalWindowEffects/css/component.css" />
+    <link rel="stylesheet" type="text/css" href="js/ModalWindowEffects/css/default.css" />
     <!-- Pennekamp -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/kyle.css">
@@ -84,193 +87,290 @@
           <p><a href="http://www.imdb.com/name/nm1208603/?ref_=tt_ov_wr/">Kyle's IMDB Page</a><p>
         </div> 
       </section>
+
       <!-- Kyle's screenplays -->
       <h2 id="kyle-screenplays">Kyle's Screenplays</h2>
+      <!-- Data for models for Kyle Screenplays -->
+      <div class="md-modal md-effect-8 no-show" id="modal-1">
+        <div class="md-content">
+          <h3>Drunks</h3>
+          <div>
+            <ul>
+              <li><strong>Network: </strong>IFC</li>
+              <li><strong>Producer: </strong><a href="http://www.imdb.com/name/nm2229059/">Sue Naegle</a></li>
+            </ul>
+            <button class="md-close">Close me!</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="md-modal md-effect-8 no-show" id="modal-2">
+        <div class="md-content">
+          <h3>Dirty Rush</h3>
+          <div>
+            <ul>
+              <li><strong>Studio: </strong>Sony Pictures</li>
+              <li><strong>Producer: </strong><a href="http://elizabethbanks.com/tagged/work-stuff">Brownstone Productions</a></li>
+              <li><strong>Based on the book: </strong><a href="http://www.imdb.com/name/nm1429908/?ref_=nv_sr_2">"Book Title"</a></li>
+            </ul>
+            <button class="md-close">Close me!</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="md-modal md-effect-8 no-show" id="modal-3">
+        <div class="md-content">
+          <h3>Ballers</h3>
+          <div>
+            <ul>
+              <li><strong>Studio: </strong>Universal Pictures</li>
+              <li><strong>Producer: </strong><a href="http://en.wikipedia.org/wiki/Imagine_Entertainment">Imagine Entertaiment</a> and <a href="http://www.imdb.com/name/nm0655510/?ref_=nv_sr_3">Will Packer Productions</a></li>
+              <li><strong>Starring: </strong><a href="http://www.imdb.com/name/nm1429908/?ref_=nv_sr_2">LeBron James</a> and <a href="http://www.imdb.com/name/nm0366389/?ref_=nv_sr_1">Kevin Hart</a></li>
+            </ul>
+            <button class="md-close">Close me!</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="md-modal md-effect-8 no-show" id="modal-4">
+        <div class="md-content">
+          <h3>My Brutha the Brother</h3>
+          <div>
+            <ul>
+              <li><strong>Network: </strong>NBC</li>
+              <li><strong>Producer: </strong> 20th and The Walcott Company</li>
+            </ul>
+            <button class="md-close">Close me!</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="md-modal md-effect-8 no-show" id="modal-5">
+        <div class="md-content">
+          <h3>The Professor</h3>
+          <div>
+            <ul>
+              <li>An available, unproduced screenplay.</li>
+            </ul>
+            <button class="md-close">Close me!</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="md-modal md-effect-8 no-show" id="modal-6">
+        <div class="md-content">
+          <h3>Things I've Learned From Women Who've Dumped Me</h3>
+          <div>
+            <ul>
+              <li><strong>Studio: </strong>MGM</li>
+              <li><strong>Producer: </strong>Ben Karlin and Kevin Mischer Productions</li>
+              <li><strong>Based on the Book: </strong><a href="http://www.amazon.com/Things-Learned-Women-Whove-Dumped-ebook/dp/B001391WZE/ref=sr_1_1?ie=UTF8&amp;qid=1391201349&amp;sr=8-1&amp;keywords=things+i%27ve+learned+from+women+who%27ve+dumped+me/">"Things I've Learned From Women Who've Dumped Me"</a></li>
+            </ul>
+            <button class="md-close">Close me!</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="md-modal md-effect-8 no-show" id="modal-7">
+        <div class="md-content">
+          <h3>Olympic Village</h3>
+          <div>
+            <ul>
+              <li><strong>Studio: </strong>Sony Pictures</li>
+              <li><strong>Producer: </strong>Matt Tolmach</li>
+            </ul>
+            <button class="md-close">Close me!</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="md-modal md-effect-8 no-show" id="modal-8">
+        <div class="md-content">
+          <h3>Buck Fever</h3>
+          <div>
+            <ul>
+              <li>An available, unproduced screenplay.</li>
+            </ul>
+            <button class="md-close">Close me!</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="md-modal md-effect-8 no-show" id="modal-9">
+        <div class="md-content">
+          <h3>Secret Agent Men</h3>
+          <div>
+            <ul>
+              <li><strong>Studio: </strong>Universal Pictures</li>
+              <li><strong>Producer: </strong>John Hamburg</li>
+            </ul>
+            <button class="md-close">Close me!</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="md-modal md-effect-8 no-show" id="modal-10">
+        <div class="md-content">
+          <h3>Baywatch</h3>
+          <div>
+            <ul>
+              <li><strong>Studio: </strong>Dreamworks</li>
+              <li><strong>Producer: </strong>Montecito Pictures</li>
+              <li><strong>Based on the Book: </strong><a href="http://www.amazon.com/Baywatch-Complete-Collection-79-DVD-Seasons/dp/B00GP9B0Q8/ref=sr_1_2?s=movies-tv&amp;ie=UTF8&amp;qid=1391201519&amp;sr=1-2&amp;keywords=baywatch/">"Baywatch"</a></li>
+            </ul>
+            <button class="md-close">Close me!</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="md-modal md-effect-8 no-show" id="modal-11">
+        <div class="md-content">
+          <h3>How to Marry A Millionaire</h3>
+          <div>
+            <ul>
+              <li><strong>Studio: </strong>Sony Pictures</li>
+              <li><strong>Producer: </strong>Nicole Kidman</li>
+              <li><strong>Based on the Movie: </strong><a href="http://www.amazon.com/How-Marry-Millionaire/dp/B000W089XS/ref=sr_1_1?s=movies-tv&amp;ie=UTF8&amp;qid=1391201401&amp;sr=1-1&amp;keywords=how+to+marry+a+millionaire/">"How to Marry a Millionaire"</a></li>
+            </ul>
+            <button class="md-close">Close me!</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="md-modal md-effect-8 no-show" id="modal-12">
+        <div class="md-content">
+          <h3>Two Million To Mexico</h3>
+          <div>
+            <ul>
+              <li>An available, unproduced screenplay.</li>
+            </ul>
+            <button class="md-close">Close me!</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="md-modal md-effect-8 no-show" id="modal-13">
+        <div class="md-content">
+          <h3>Summer School</h3>
+          <div>
+            <ul>
+              <li><strong>Studio: </strong>Paramount Pictures</li>
+              <li><strong>Based on the Movie: </strong><a href="http://www.amazon.com/Summer-School-Kirstie-Alley/dp/B00AEBB9DW/ref=sr_1_1?s=movies-tv&amp;ie=UTF8&amp;qid=1391201436&amp;sr=1-1&amp;keywords=summer+school+mark+harmon/">"Summer School"</a></li>
+            </ul>
+            <button class="md-close">Close me!</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="md-modal md-effect-8 no-show" id="modal-14">
+        <div class="md-content">
+          <h3>Duck For President</h3>
+          <div>
+            <ul>
+              <li><strong>Studio: </strong>Paramount Pictures</li>
+              <li><strong>Producer: </strong>Nickelodeon Films</li>
+              <li><strong>Based on the Book: </strong><a href="http://www.amazon.com/President-Times-Illustrated-Childrens-Awards/dp/0689863772/ref=sr_1_2?s=books&amp;ie=UTF8&amp;qid=1391201491&amp;sr=1-2&amp;keywords=duck+for+president/">"Duck For President"</a></li>
+            </ul>
+            <button class="md-close">Close me!</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="md-modal md-effect-8 no-show" id="modal-15">
+        <div class="md-content">
+          <h3>Wedding the Winterbottoms</h3>
+          <div>
+            <ul>
+              <li>An available, unproduced screenplay.</li>
+            </ul>
+            <button class="md-close">Close me!</button>
+          </div>
+        </div>
+      </div>
+
       <section class="KyleScreenplays">
         <h2 class="validation-only">Kyle's Screenplays</h2>
+      
         <p class="year">2016</p>
             
-          <div class="screenplay">
+          <div class="screenplay md-trigger" data-modal="modal-1">
             <p class="script_title">Drunks</p>
-            <ul>
-              <li>IFC</li>
-              <li><a href="http://www.imdb.com/name/nm2229059/">Sue Naegle</a></li>
-              <li><br></li>
-              <li><br></li>
-              <li class="exit-button">(click to exit)</li>
-            </ul>
           </div> 
 
         <p class="year">2015</p>
             
-          <div class="screenplay">
+          <div class="screenplay md-trigger" data-modal="modal-2">
             <p class="script_title">Dirty Rush</p>
-            <ul>
-              <li>Sony Pictures</li>
-              <li><a href="http://elizabethbanks.com/tagged/work-stuff">Brownstone Productions</a></li>
-              <li>Based on the book <a href="http://www.imdb.com/name/nm1429908/?ref_=nv_sr_2">"Book Title"</a></li>
-              <li><br></li>
-              <li class="exit-button">(click to exit)</li>
-            </ul>
           </div> 
       
         <p class="year">2014</p>
             
-          <div class="screenplay">
+          <div class="screenplay md-trigger" data-modal="modal-3">
             <p class="script_title">Ballers</p>
-            <ul>
-              <li>Universal Pictures</li>
-              <li><a href="http://en.wikipedia.org/wiki/Imagine_Entertainment">Imagine Entertainment</a> and <a href="http://www.imdb.com/name/nm0655510/?ref_=nv_sr_3">Will Packer Productions</a></li>
-              <li>Starring <a href="http://www.imdb.com/name/nm1429908/?ref_=nv_sr_2">LeBron James</a> and <a href="http://www.imdb.com/name/nm0366389/?ref_=nv_sr_1">Kevin Hart</a></li>
-              <li><br></li>
-              <li class="exit-button">(click to exit)</li>
-            </ul>
           </div>  
             
-          <div class="screenplay">
+          <div class="screenplay md-trigger" data-modal="modal-4">
             <p class="script_title">My Brother the Brutha</p>
-            <ul>
-              <li>NBC</li>
-              <li>20th and The Walcott Company</li>
-              <li><br></li>
-              <li><br></li>
-              <li class="exit-button">(click to exit)</li>
-            </ul>
           </div>  
             
-          <div class="screenplay">
+          <div class="screenplay md-trigger" data-modal="modal-5">
             <p class="script_title">The Professor</p>
-            <ul>
-              <li>An available, unproduced screenplay</li>
-              <li><br></li>
-              <li><br></li>
-              <li><br></li>
-              <li class="exit-button">(click to exit)</li>
-            </ul>
           </div>  
             
-          <div class="screenplay">
+          <div class="screenplay md-trigger" data-modal="modal-6">
             <p class="script_title">Things I've Learned From Women Who've Dumped Me</p>
-            <ul>
-              <li>MGM</li>
-              <li>Ben Karlin and Kevin Mischer Productions</li>
-              <li>Based on the Book: <a href="http://www.amazon.com/Things-Learned-Women-Whove-Dumped-ebook/dp/B001391WZE/ref=sr_1_1?ie=UTF8&amp;qid=1391201349&amp;sr=8-1&amp;keywords=things+i%27ve+learned+from+women+who%27ve+dumped+me/">"Things I've Learned From Women Who've Dumped Me"</a></li>
-              <li><br></li>
-              <li class="exit-button">(click to exit)</li>
-            </ul>
           </div>  
               
-          <p class="year">2013</p>
+        <p class="year">2013</p>
 
-          <div class="screenplay">
+          <div class="screenplay md-trigger" data-modal="modal-7">
             <p class="script_title">Olympic Village</p>
-            <ul>
-              <li>Sony Pictures</li>
-              <li>Matt Tolmach Productions</li>
-              <li><br></li>
-              <li><br></li>
-              <li class="exit-button">(click to exit)</li>
-            </ul>
           </div>
               
-          <p class="year">2012</p>
+        <p class="year">2012</p>
 
-          <div class="screenplay">
+          <div class="screenplay md-trigger" data-modal="modal-8">
             <p class="script_title">Buck Fever</p>
-            <ul>
-              <li>An available, unproduced screenplay</li>
-              <li><br></li>
-              <li><br></li>
-              <li><br></li>
-              <li class="exit-button">(click to exit)</li>
-            </ul>
           </div>  
               
-          <p class="year">2009</p>
+        <p class="year">2009</p>
 
-          <div class="screenplay">
+          <div class="screenplay md-trigger" data-modal="modal-9">
             <p class="script_title">Secret Agent Men</p>
-            <ul>
-              <li>Universal</li>
-              <li>John Hamburg Productions</li>
-              <li><br></li>
-              <li><br></li>
-              <li class="exit-button">(click to exit)</li>
-            </ul>
           </div>
             
-          <p class="year">2007</p>
+        <p class="year">2007</p>
 
-          <div class="screenplay">  
+          <div class="screenplay md-trigger" data-modal="modal-10">  
             <p class="script_title">Baywatch</p>
-            <ul>
-              <li>Dreamworks</li> 
-              <li>Montecito Pictures</li>
-              <li>Based on the TV Series: <a href="http://www.amazon.com/Baywatch-Complete-Collection-79-DVD-Seasons/dp/B00GP9B0Q8/ref=sr_1_2?s=movies-tv&amp;ie=UTF8&amp;qid=1391201519&amp;sr=1-2&amp;keywords=baywatch/">"Baywatch"</a></li>
-              <li><br></li>
-              <li class="exit-button">(click to exit)</li>
-            </ul>
           </div>
 
-          <div class="screenplay">
+          <div class="screenplay md-trigger" data-modal="modal-11">
             <p class="script_title">How to Marry a Millionaire</p>
-            <ul>
-              <li>Sony</li>
-              <li>Nicole Kidman Productions</li>
-              <li>Based on the movie: <a href="http://www.amazon.com/How-Marry-Millionaire/dp/B000W089XS/ref=sr_1_1?s=movies-tv&amp;ie=UTF8&amp;qid=1391201401&amp;sr=1-1&amp;keywords=how+to+marry+a+millionaire/">"How to Marry a Millionaire"</a></li>
-              <li><br></li>
-              <li class="exit-button">(click to exit)</li>
-            </ul>
           </div>
             
-          <p class="year">2005</p>  
+        <p class="year">2005</p>  
 
-          <div class="screenplay">
+          <div class="screenplay md-trigger" data-modal="modal-12">
             <p class="script_title">Two Million to Mexico</p>
-            <ul>
-              <li>An available, unproduced screenplay</li>
-              <li><br></li>
-              <li><br></li>
-              <li><br></li>
-              <li class="exit-button">(click to exit)</li>
-            </ul>
           </div>
 
-          <div class="screenplay">
+          <div class="screenplay md-trigger" data-modal="modal-13">
             <p class="script_title">Summer School</p>
-            <ul>
-              <li>Paramount Pictures</li>
-              <li>Based on the movie: <a href="http://www.amazon.com/Summer-School-Kirstie-Alley/dp/B00AEBB9DW/ref=sr_1_1?s=movies-tv&amp;ie=UTF8&amp;qid=1391201436&amp;sr=1-1&amp;keywords=summer+school+mark+harmon/">"Summer School"</a></li>
-              <li><br></li>
-              <li><br></li>
-              <li class="exit-button">(click to exit)</li>
-            </ul>
           </div>
             
-          <p class="year">2004</p>  
+        <p class="year">2004</p>  
 
-          <div class="screenplay">
+          <div class="screenplay md-trigger" data-modal="modal-14">
             <p class="script_title">Duck for President</p>
-            <ul>
-              <li>Paramount Pictures</li>
-              <li>Nickelodeon</li>
-              <li>Based on the book: <a href="http://www.amazon.com/President-Times-Illustrated-Childrens-Awards/dp/0689863772/ref=sr_1_2?s=books&amp;ie=UTF8&amp;qid=1391201491&amp;sr=1-2&amp;keywords=duck+for+president/">"Duck For President"</a></li>
-              <li><br></li>
-              <li class="exit-button">(click to exit)</li>
-            </ul>
           </div>
           
-          <div class="screenplay">
+          <div class="screenplay md-trigger" data-modal="modal-15">
             <p class="script_title">Wedding the Winterbottoms</p>
-            <ul>
-              <li>An available, unproduced screenplay</li>
-              <li><br></li>
-              <li><br></li>
-              <li><br></li>
-              <li class="exit-button">(click to exit)</li>
-            </ul>
           </div>
         </section>
+      <!-- Probably need to add this to the page -->
+        <div class="md-overlay"></div><!-- the overlay element -->
       <!-- Kyle's Recommendations-->
       <h2 id="kyle-recs">Kyle's Recommendations</h2>
       <section class="flexbox" id="kyle-rec-section">
@@ -356,6 +456,18 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/KyleScriptJS.js" type="text/javascript" charset="utf-8"></script>
+    <!-- Scripts for Nifty Modal Plugin -->
+    <!-- classie.js by @desandro: https://github.com/desandro/classie -->
+        <script src="js/ModalWindowEffects/js/classie.js"></script>
+        <script src="js/ModalWindowEffects/js/modalEffects.js"></script>
+
+        <!-- for the blur effect -->
+        <!-- by @derSchepp https://github.com/Schepp/CSS-Filters-Polyfill -->
+        <script>
+            // this is important for IEs
+            var polyfilter_scriptpath = '/js/';
+        </script>
+        <script src="js/ModalWindowEffects/js/cssParser.js"></script>
+        <script src="js/ModalWindowEffects/js/css-filters-polyfill.js"></script>
   </body>
 </html>
