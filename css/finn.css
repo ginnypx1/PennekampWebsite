@@ -99,7 +99,9 @@ canvas {
 }
 
 /********************************ANIMATION*/
-
+.animate {
+    position: relative;
+}
 #finn-social-media img:hover {
     -webkit-transform: scale(2, 2) rotate(1turn);
     transform: rotate(1turn);
