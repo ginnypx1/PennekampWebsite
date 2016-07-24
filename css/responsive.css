@@ -8,6 +8,9 @@
 		-webkit-flex-direction: column;
 		flex-direction: column;
 	}
+	#mainPic p {
+		font-size: 2em;
+	}
 	h2 {
 		font-size: 1.5em;
 	}
@@ -73,8 +76,11 @@
 		margin: 5% 12%;
 	}
 	/*Kyle Recs*/
+	#kyle-recs {
+		font-size: 1.25em;
+	}
 	#kyle-rec-section {
-		font-size: 0.75em;
+		font-size: 0.5em;
 	}
 	#kyle-rec-section img {
 		width: 120px;
