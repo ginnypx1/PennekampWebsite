@@ -76,6 +76,9 @@
 		margin: 5% 12%;
 	}
 	/*Kyle Recs*/
+	#kyle-recs {
+		font-size: 1.25em;
+	}
 	#kyle-rec-section {
 		font-size: 0.5em;
 	}
