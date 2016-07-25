@@ -26,18 +26,32 @@
 		font-size: 1.5em;
 	}
 	/*************************FINN INDEX*/
+	/*Name Generator*/
 	#display-name {
 		font-size: 1.5em;
 	}
 	#nameGenerator {
 		font-size: 1.1em;
 	}
+	/*Animation*/
 	.street-sweeper,
 	.garbage-truck,
 	.fire-truck {
 	    width: 4em;
 	    height: 3em;
 	    bottom: 4%;
+	}
+	/*flexbox style*/
+	.flexbox img {
+		height: 120px;
+		width: 120px;
+	}
+	.flexbox li {
+		font-size: 0.75em;
+	}
+	/*Social media*/
+	#finn-social-media li {
+		font-size: 2em;
 	}
 	/*************************KYLE INDEX*/
 	/*Kyle Movies*/
