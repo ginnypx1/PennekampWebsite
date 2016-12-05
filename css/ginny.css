@@ -57,6 +57,19 @@ h2 {
 }
 
 /*******************************MOVIE POSTERS*/
+.card {
+    width: 27%;
+    padding: 0;
+    margin-left: 3%;
+}
+.card,
+.poster,
+.side-b {
+    height: 35em;
+}
+#ginny-poster-section {
+    height: 35em;
+}
 .side-a img {
     border: 1px solid #5C001F; /*darker pink*/
 }

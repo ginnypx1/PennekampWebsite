@@ -59,7 +59,7 @@
 		height: 75em;
 	}
 	#poster-section {
-		height: 70em;
+		height: 65em;
 	}
 	#kyle-movies ul {
 		-webkit-flex-direction: row;
@@ -75,9 +75,8 @@
 	    height: 33em;
 	}
 	.side-b {
-		width: 90%;
-		height: 33em;
-        font-size: 1em;
+		width: 99%;
+		height: 99%;
     }
 	.still-shot {
         display: none;
@@ -104,10 +103,8 @@
 	/*Ginny fonts*/
 	.ginny-web p,
 	#ginny-movies p {
-	    font-size: 1.15em;
 	    margin: 0 10%;
 	    padding: 1% 0;
-	   text-align: justify;
 	}
 	.ginny-web ul {
 		padding: 1% 0;
@@ -117,7 +114,13 @@
 	}
 	/*Ginny Movies*/
 	#ginny-movies {
-		height: 85em;
+		height: 140em;
+	}
+	#ginny-poster-section {
+		height: 120em;
+	}
+	.ginny-card {
+		height: 37em;
 	}
 	#ginny-movies ul {
 		-webkit-flex-direction: row;
@@ -185,7 +188,6 @@
 	}
 	.side-b {
 		width: 90%;
-		height: 53em;
         font-size: 1em;
     }
 	/*Kyle Screenplays*/
@@ -206,7 +208,10 @@
 	/*************************Ginny INDEX*/
 	/*Ginny Movies*/
 	#ginny-movies {
-		height: 130em;
+		height: 190em;
+	}
+	#ginny-poster-section {
+		height: 170em;
 	}
 	#ginny-movies ul {
 		-webkit-flex-direction: row;
@@ -245,7 +250,6 @@
 	}
 	.side-b {
 		width: 90%;
-		height: 60em;
         font-size: 0.75em;
     }
 	.card,
@@ -260,7 +264,10 @@
 	/*************************GINNY INDEX*/
 	/*Ginny Movies*/
 	#ginny-movies {
-		height: 65em;
+		height: 120em;
+	}
+	#ginny-poster-section {
+		height: 95em;
 	}
 }
 

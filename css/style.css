@@ -133,7 +133,8 @@ NAVIGATION
 .movie-title {
     font-size: 2em;
 }
-#poster-section {
+#poster-section,
+#ginny-poster-section {
     height: 50em;
     text-align: center;
 }
