@@ -1,271 +1,34 @@
-/*PHONES to iPHONES*/
-@media screen and (max-width: 480px) {
-	/*body {
-		background-color: purple;
-	}*/
-	/*************************MAIN NAV*/
-	.main-menu ul {
-		-webkit-flex-direction: column;
-		flex-direction: column;
-	}
-	#mainPic p {
-		font-size: 2em;
-	}
-	h2 {
-		font-size: 1.5em;
-	}
-	.social-media li {
-		font-size: 1.5em;
-	}
-	/*************************SECTION FLEXBOX*/
-	.flexbox img {
-		width: 150px;
-		height: 150px;
-	}
-	.flexbox h2 {
-		font-size: 1.5em;
-	}
-	/*************************FINN INDEX*/
-	/*Name Generator*/
-	#display-name {
-		font-size: 1.5em;
-	}
-	#nameGenerator {
-		font-size: 1.1em;
-	}
-	/*Animation*/
-	.street-sweeper,
-	.garbage-truck,
-	.fire-truck {
-	    width: 4em;
-	    height: 3em;
-	    bottom: 4%;
-	}
-	/*flexbox style*/
-	.flexbox img {
-		height: 120px;
-		width: 120px;
-	}
-	.flexbox li {
-		font-size: 0.75em;
-	}
-	/*Social media*/
-	#finn-social-media li {
-		font-size: 2em;
-	}
-	/*************************KYLE INDEX*/
-	/*Kyle Movies*/
-	#kyle-movies {
-		height: 75em;
-	}
-	#poster-section {
-		height: 70em;
-	}
-	#kyle-movies ul {
-		-webkit-flex-direction: row;
-		flex-direction: row;
-	}
-	.side-a img {
-		width: 100%;
-		height: 100%;
-	}
-	.card,
-	.poster {
-		width: 90%;
-	    height: 33em;
-	}
-	.side-b {
-		width: 90%;
-		height: 33em;
-        font-size: 1em;
+/* Extra-small devices (portrait phones, less than 544px) */
+@media screen and (max-width: 543px) {
+    /*body {
+        background-color: red;
+    }*/
+    #footer {
+        font-size: 0.5rem;
     }
-	.still-shot {
-        display: none;
+    #footer p {
+        visibility: hidden;
     }
-	/*Kyle Screenplays*/
-	.year {
-		display: none;
-	}
-	.KyleScreenplays {
-		margin: 5% 12%;
-	}
-	/*Kyle Recs*/
-	#kyle-recs {
-		font-size: 1.25em;
-	}
-	#kyle-rec-section {
-		font-size: 0.5em;
-	}
-	#kyle-rec-section img {
-		width: 120px;
-		height: 120px;
-	}
-	/*************************Ginny INDEX*/
-	/*Ginny fonts*/
-	.ginny-web p,
-	#ginny-movies p {
-	    font-size: 1.15em;
-	    margin: 0 10%;
-	    padding: 1% 0;
-	   text-align: justify;
-	}
-	.ginny-web ul {
-		padding: 1% 0;
-	}
-	.ginny-web li {
-		padding: 0.5% 0;
-	}
-	/*Ginny Movies*/
-	#ginny-movies {
-		height: 85em;
-	}
-	#ginny-movies ul {
-		-webkit-flex-direction: row;
-		flex-direction: row;
-	}
-	#imdb-link {
-		height: 10em;
-		font-size: 0.80em;
-		margin: 0 auto;
-	}
-	/*Ginny Recs*/
-	#ginny-rec-section {
-		font-size: 0.75em;
-	}
-	#ginny-rec-section img {
-		width: 120px;
-		height: 120px;
-	}
-	#ginny-rec-section h2 {
-    	font-size: 2em;
-	}
-	.ginny-social-media a {
-		font-size: 0.75em;
-	}
+    .social-media-icon {
+        font-size: 1rem;
+    }
+
 }
 
-/*iPHONES to WINDOWS PHONES*/
-@media screen and (min-width: 480px) and (max-width: 768px) {
-	/*body {
-		background-color: red;
-	}*/
-	/*************************MAIN NAV*/
-	.main-menu ul {
-		-webkit-flex-direction: column;
-		flex-direction: column;
-	}	
-	/*************************FINN INDEX*/
-	.street-sweeper,
-	.garbage-truck,
-	.fire-truck {
-	    width: 4em;
-	    height: 3em;
-	    bottom: 5%;
-	}
-	/*************************KYLE INDEX*/
-	/*Kyle Movies*/
-	#kyle-movies {
-		height: 115em;
-	}
-	#poster-section {
-		height: 110em;
-	}
-	#kyle-movies ul {
-		-webkit-flex-direction: row;
-		flex-direction: row;
-	}
-	.side-a img {
-		width: 100%;
-		height: 100%;
-	}
-	.card,
-	.poster {
-		width: 90%;
-	    height: 53em;
-	}
-	.side-b {
-		width: 90%;
-		height: 53em;
-        font-size: 1em;
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 544px) and (max-width: 767px) {
+    /*body {
+        background-color: orange;
+    }*/
+    #footer {
+        font-size: 0.75rem;
     }
-	/*Kyle Screenplays*/
-	.year {
-		display: none;
-	}
-	.KyleScreenplays {
-		margin: 1% 15%;
-	}
-	/*Kyle Recs*/
-	#kyle-rec-section {
-		font-size: 0.75em;
-	}
-	#kyle-rec-section img {
-		width: 120px;
-		height: 120px;
-	}
-	/*************************Ginny INDEX*/
-	/*Ginny Movies*/
-	#ginny-movies {
-		height: 130em;
-	}
-	#ginny-movies ul {
-		-webkit-flex-direction: row;
-		flex-direction: row;
-	}
-	/*Ginny Recs*/
-	#ginny-rec-section {
-		font-size: 0.75em;
-	}
-	#ginny-rec-section img {
-		width: 120px;
-		height: 120px;
-	}
+    #footer p {
+        visibility: hidden;
+    }
 }
 
-/*TABLETS to DESKTOP*/
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-	/*body {
-		background-color: yellow;
-	}*/
-	/*************************FINN INDEX*/
-	.street-sweeper,
-	.garbage-truck,
-	.fire-truck {
-	    width: 5em;
-	    height: 4em;
-	    bottom: 7.5%;
-	}
-	/*************************KYLE INDEX*/
-	/*Kyle Movies*/
-	#kyle-movies {
-		height: 50em;
-	}
-	#poster-section {
-		height: 45em;
-	}
-	.side-b {
-		width: 90%;
-		height: 60em;
-        font-size: 0.75em;
-    }
-	.card,
-	.poster {
-		width: 47%;
-	}
-	.side-a img {
-		width: 100%;
-		height: 100%;
-	}
-	/*************************GINNY INDEX*/
-	/*Ginny Movies*/
-	#ginny-movies {
-		height: 65em;
-	}
 }
 
-/*SMALL to LARGE DESKTOP*/
-@media screen and (min-width: 1300px) {
-	/*body {
-		background-color: green;
-	}*/
-}
+/* Extra large devices (large desktops) */
+/* No media query, no upper bound on its width */

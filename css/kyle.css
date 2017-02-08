@@ -2,41 +2,44 @@
 KYLE PAGE STYLING
 *********************************/
 /********************************MAIN PICTURE*/
-#mainPic { 
+.jumbotron { 
     background-color: #FF6600; /*burnt orange*/
     border-top: 3px solid #993D00; /*darker orange*/
     border-bottom: 3px solid #993D00; /*darker orange*/
-    text-align: center;
 }
 .MainPhoto {
     border: 3px solid #993D00; /*darker orange*/
 }
-img {
-    border: 1px solid #993D00; /*darker orange*/
+/********************************COLORS*/
+#imdb-link a,
+h4,
+.social-media-icon {
+    color: #FF6600; /*burnt orange*/
 }
-/********************************FONTS*/
-h2 {
-    text-align: center;
-    color: #333;
-    margin: 1% 5%;
+h2,
+#imdb-link a:hover,
+.social-media p,
+.social-media-icon:hover {
+    color: #993D00; /*darker orange*/
 }
-.validation-only {
-    display: none;
+/********************************MOVIE POSTERS*/
+.movie-title {
+    font-size: 1.5rem;
+    color: #993D00; /*darker orange*/
 }
-/********************************LINKS*/
-#imdb-link a:hover {
-    color: #FF6600; /*burnt orange*/;
+.movie-details a {
+    color: #FF6600; /*burnt orange*/
 }
-/*******************************MOVIE POSTERS*/
+.movie-details a:hover {
+    color: #993D00; /*darker orange*/
+}
+.side-a img,
 .side-b {
     border: 1px solid #993D00; /*darker orange*/
-} 
-.movie-title {
-    color: #993D00; /*darker orange*/
 }
-#imdb-link a {
-    font-size: 1.5em;
-    color: #993D00; /*darker orange*/
+.still-shot {
+    width: 75%;
+    border: 1px solid #993D00; /*darker orange*/
 }
 /*******************************SCRIPT SECTION*/ 
 .no-show {
@@ -44,10 +47,13 @@ h2 {
 }
 .md-modal {
     position: relative;
-    top: 10em;
+    top: 10rem;
 }
 .md-modal a {
     color: #E6E6E6;
+}
+.md-modal ul {
+    list-style: none;
 }
 .screenplay:hover{
     background-color: #FFE0CC; /*very light orange*/
@@ -67,39 +73,19 @@ h2 {
     text-decoration: underline;
 }
 .year {
-    font-size: 2em;
+    font-size: 2rem;
     padding-top: 70px;
     font-family: 'Muli', sans-serif;
     color: #FF6600;
 }
 .script_title {
-    font-size: 0.85em;
+    font-size: 0.85rem;
     padding-top: 40px;
     font-family: Courier;   
 }
-
-/******FLEXBOX SCRIPT NAV****************/
-.KyleScreenplays  {
-    margin: 0.5% 7%;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-direction: row;
-    flex-direction: row;
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
-    justify-content: center;
+/********************************RECOMMENDATIONS*/
+#kyle-recs img {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #993D00; /*darker orange*/
 }
-
-/*******************************RECS SECTION*/ 
-#kyle-rec-section {
-    font-size: 0.75em;
-}
-#kyle-rec-section img {
-    width: 150px;
-    height: 150px;
-    border: 1px solid #993D00;
-}
-/*******************************SOCIAL MEDIA*/
-.social-media a {
-    color: #FF6600; /*burnt orange*/
-} 

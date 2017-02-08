@@ -1,0 +1,71 @@
+/* Extra-small devices (portrait phones, less than 544px) */
+@media screen and (max-width: 543px) {
+    /*body {
+        background-color: red;
+    }*/
+    .d-flex img {
+        height: 100px;
+        width: 100px;
+    }
+    .d-flex p,
+    .d-flex a {
+        font-size: 0.75rem;
+    }
+    .street-sweeper {
+        width: 6.5rem;
+        -webkit-animation: drive 10s linear infinite;
+        animation: drive 10s linear infinite;
+    }
+    .fire-truck {
+        -webkit-animation: drive 10s linear 2.25s infinite;
+        animation: drive 10s linear 3.25s infinite;
+    }
+    .garbage-truck {
+        -webkit-animation: drive 10s linear 4.5s infinite;
+        animation: drive 10s linear 6.5s infinite;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 544px) and (max-width: 767px) {
+    /*body {
+        background-color: orange;
+    }*/
+    .d-flex img {
+        height: 150px;
+        width: 150px;
+    }
+    .street-sweeper {
+        width: 6.5rem;
+        -webkit-animation: drive 10s linear infinite;
+        animation: drive 10s linear infinite;
+    }
+    .fire-truck {
+        -webkit-animation: drive 10s linear 2.25s infinite;
+        animation: drive 10s linear 3.25s infinite;
+    }
+    .garbage-truck {
+        -webkit-animation: drive 10s linear 4.5s infinite;
+        animation: drive 10s linear 6.5s infinite;
+    }
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991px) {
+    /*body {
+        background-color: yellow;
+    }*/
+
+    
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    /*body {
+        background-color: green;
+    }*/
+}
+
+/* Extra large devices (large desktops) */
+/* No media query, no upper bound on its width */
