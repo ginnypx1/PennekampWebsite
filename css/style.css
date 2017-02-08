@@ -1,178 +1,84 @@
 /********************************
-STANDARD PAGE RULES
+JUMBOTRON
 *********************************/
-* {
-	margin:0;
-	padding:0;
-} 
-html,
-body {
-	height: 100%;
+h1 {
+    color: white;
 }
-html {
-	font-size: 16px;
-	font-family: sans-serif;
-}
-#wrapper {
-	max-width: 1280px;
-	min-height: 24%;
-    /*position: relative;*/
-	margin-bottom: -40px;
-    z-index: -1;
-}
-#wrapper:after {
-	content: "";
-	display: block;
-}
-img {
-	max-width: 100%;
-}
-ul {
-	list-style: none;
-}
-
 /********************************
 NAVIGATION
 *********************************/
 .left{
-	background-color: #FF6600; /*burnt orange*/
-	border: 2px solid #993D00; /*darker orange*/
+    background-color: #FF6600; /*burnt orange*/
+    border: 2px solid #993D00; /*darker orange*/
 }
 .center {
-	background-color: #990033; /*hot pink*/
-	border: 2px solid #5C001F; /*darker pink*/
+    background-color: #990033; /*hot pink*/
+    border: 2px solid #5C001F; /*darker pink*/
 }
 .right {
-	background-color: #339999; /*teal*/
-	border: 2px solid #1F5C5C; /*darker teal*/
-}
-.main-menu ul li {
-	text-align: center;
-	font-size: 1.125em;
-	letter-spacing: 0.125em;
-	border-radius: 30px;
-}
-.main-menu li {
-	padding: 1em;
-	margin: 1em;
-}
-.main-menu a {
-	color: white;
-}
-.main-menu a:hover {
-    color: #E6E6E6;
-}
-/******FLEXBOX MAIN MENU NAV****************/
-.main-menu ul {
-	display: -webkit-flex;
-	display: flex;
-	-webkit-flex-direction: row;
-	flex-direction: row;
-}
- #mainPic p {
-    font-size: 3em;
-    font-family: serif;
-    letter-spacing: 0.1em;
-    color: white;
-    text-align: center;
- }
- .col-md-4 {
-    padding: 1% 0;
-    font-size: 1.25em;
-    text-align: center;
- }
- #mainPic p {
-    padding-top: 3%;
- }
-/******FLEXBOX GALLERIES****************/
-.flexbox {
-	margin: 0 5%;
-	text-align: center;
-}
-.flexbox ul {
-	display: -webkit-flex;
-	display: flex;
-	-webkit-flex-direction: row;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-.flexbox li {
-	padding: 0.5em;
-	margin: 0.5em;
-}
-.flexbox p {
-	padding: 2.5%;
-}
-/*****************************MOVIE POSTERS*/
-.card {
-    width: 47%;
-    padding: 0;
-    margin-left: 3%;
-}
-.card,
-.poster,
-.side-b {
-    height: 50em;
-}
-.movie-details,
-.still-shot {
-    width: 50%;
-}
-.movie-details{
-    display: block;
-    margin: 2em auto;
-    font-size: 1.25em;
-}
-.side-b {
-    padding-top: 5em;
-}
-#imdb-link {
-    height: 4em;
-}
-.movie-title {
-    font-size: 2em;
-}
-#poster-section,
-#ginny-poster-section {
-    height: 50em;
-    text-align: center;
-}
-.movie-details a {
-    color: #444;
-}
-.movie-details a:hover {
-    color: #888;
-}
-/******MOVIE POSTER ANIMATION****************/
-body {
-    -webkit-perspective: 800px;
-    perspective: 800px;
-}
-.card {
-    transition: -webkit-transform 1s ease-in;
-    transition: transform 1s ease-in;
-    -webkit-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-}
-.card div {
-    position: absolute;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-}
-.side-a {
-    z-index: 100;
-}
-.side-b {
-    -webkit-transform: rotateY(-180deg);
-    transform: rotateY(-180deg);
-}
-.card:hover {
-    -webkit-transform: rotateY(180deg);
-    transform: rotateY(180deg);
+    background-color: #339999; /*teal*/
+    border: 2px solid #1F5C5C; /*darker teal*/
 }
 
-/********************************SOCIAL MEDIA ICONS*/
+#main-nav .col-md {
+    border-radius: 30px;
+    letter-spacing: 0.125rem;
+}
+#main-nav a {
+    color: white;
+}
+#main-nav a:hover {
+    color: #E6E6E6;
+}
+/********************************
+HEADERS
+*********************************/
+h2 {
+    border: 1px solid gray;
+    border-radius: 30px;
+    letter-spacing: 0.25rem;
+}
+/********************************
+MOVIE POSTERS
+*********************************/
+.d-flex {
+    justify-content: center;
+}
+.movie-details {
+    list-style: none;
+}
+/******MOVIE POSTER ANIMATION****************/
+.card-container {
+    perspective: 1000px;
+}
+.card-container:hover .flipper, .card-container.hover .flipper {
+    transform: rotateY(180deg);
+}
+.card-container, .side-a, .side-b {
+    width: 320px;
+    height: 480px;
+}
+.flipper {
+    transition: 0.7s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+.side-a, .side-b {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.side-a {
+    z-index: 2;
+    transform: rotateY(0deg);
+}
+.side-b {
+    transform: rotateY(180deg);
+}
+/********************************
+SOCIAL MEDIA ICONS
+*********************************/
 @font-face {
     font-family: 'icomoon';
     src:    url('../fonts/icomoon.eot?dg84my');
@@ -183,7 +89,6 @@ body {
     font-weight: normal;
     font-style: normal;
 }
-
 [class^="icon-"], [class*=" icon-"] {
     /* use !important to prevent issues with browser extensions that change fonts */
     font-family: 'icomoon' !important;
@@ -198,7 +103,6 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
 .icon-video-camera:before {
     content: "\e914";
 }
@@ -232,46 +136,12 @@ body {
 .icon-git:before {
     content: "\eae7";
 }
-
-.social-media li {
-	font-size: 2em;
-}
-/********************************
-PROFILE SECTION HEADINGS
-*********************************/
-h2 {
-	border: 1px solid gray;
-	border-radius: 30px;
-	padding: 1%;
-	font-size: 2em;
-	letter-spacing: 0.25em;
-    text-align: center;
-}
-/********************************
-PROFILE SECTIONS
-*********************************/
-.profile-section {
-	margin: 5%;
+.social-media-icon {
+    font-size: 1.25rem;
 }
 /********************************
 FOOTER
 *********************************/
-footer {
-	font-family: serif;
-	text-align: center;
-	padding-top: 1%;
-}
-footer,
-#wrapper:after {
-	height: 40px;
-}
-footer {
-	background: #CCC;
-}
-footer a {
+#home-link {
     color: #999;
-    z-index: 100;
-}
-footer a:hover {
-    color: #666;
 }

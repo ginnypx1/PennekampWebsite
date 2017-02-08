@@ -1,13 +1,12 @@
 /********************************
 FINN PAGE STYLING
 *********************************/
-
 /********************************PICTURE*/
-#mainPic { 
+.jumbotron { 
     background-color: #339999; /*teal*/
     border-top: 3px solid #1F5C5C; /*darker teal*/
     border-bottom: 3px solid #1F5C5C; /*darker teal*/
-    text-align: center;
+    letter-spacing: 0.125rem;
 }
 .MainPhoto {
     border: 3px solid #1F5C5C; /*darker teal*/
@@ -15,60 +14,47 @@ FINN PAGE STYLING
 img {
     border: 1px solid #1F5C5C; /*darker teal*/
 }
-
-/********************************FONTS*/
-h2 {
-    text-align: center;
+/********************************COLORS*/
+h2,
+.section a:hover,
+.social-media p,
+.social-media a:hover {
     color: #1F5C5C; /*darker teal*/
 }
-.flexbox p {
+.section a,
+.section p,
+.social-media a {
     color: #339999; /*teal*/
 }
-/********************************IMG*/
-.flexbox img {
-    width: 200px;
-    height: 200px;
+/********************************IMAGES*/
+.section img {
+    width: 12rem;
 }
-
+/********************************RECOMMENDATIONS*/
+#finn-recs img {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #1F5C5C; /*darker teal*/
+}
 /********************************NAME GENERATOR*/
-#nameGenerator {
-    margin-top: 0.5em;
-    padding: 0.5em 2em;
-    border-radius: 30px;
-    color: white;
-    font-size: 1.25em;
-    letter-spacing: 0.25em;
-}
-.name-game-form {
-    text-align: center;
-}
 label {
-    margin-top: 1.5em;
     color: #1F5C5C; /*darker teal*/
-    letter-spacing: 0.1em;
+    letter-spacing: 0.1rem;
 }
 #display-name {
-    color: #339999;
-    margin-top: 1.5em;
-    text-align: center;
-    font-size: 2em;
+    color: #339999; /*teal*/
+    font-size: 2rem;
 }
-
 /********************************DRAW A TRUCK*/
 /*CANVAS*/
 canvas {
-    display: block;
-    width: 75%;
-    margin: 1% auto;
+    width: 60%;
     border: 2px solid gray;
     border-radius: 30px;
+    display: block;
+    margin: 1% auto;
 }
 /*COLOR CHOICES*/
-.controls ul {
-    padding: 10px 0;
-    width: 100%;
-    text-align: center;
-}
 .controls ul li {
     height: 54px;
     width: 54px;
@@ -76,7 +62,6 @@ canvas {
     border-radius: 60px;
     cursor: pointer;
     display: inline-block;
-    margin: 0 5px;
 }
 /*COLORS*/
 .black {
@@ -97,64 +82,36 @@ canvas {
     height: 52px;
     width: 52px;
 }
-
+.controls ul {
+    margin: 0;
+    padding: 0;
+}
 /********************************ANIMATION*/
 .animate {
     position: relative;
+    height: 2.5rem;
 }
-#finn-social-media img:hover {
-    -webkit-transform: scale(2, 2) rotate(1turn);
-    transform: rotate(1turn);
-}
-
-#finn-social-media img {
-    -webkit-transition: 0.5s linear;
-    transition: 0.5s linear;
-}
-/***truck drive***/
-.animate {
-    height: 2.5em;
-}
-
 .street-sweeper,
 .garbage-truck,
 .fire-truck {
-    width: 6em;
-    height: 5em;
+    width: 6rem;
+    height: 5rem;
     border: none;
     position: absolute;
     left: 85%;
     bottom: 7.5%;
 }
-
 .street-sweeper {
-    width: 6.5em;
-    -webkit-animation: drive 10s linear infinite;
+    width: 6.5rem;
     animation: drive 10s linear infinite;
 }
-
 .fire-truck {
-    -webkit-animation: drive 10s linear 2.25s infinite;
     animation: drive 10s linear 2.25s infinite;
 }
-
 .garbage-truck {
-    -webkit-animation: drive 10s linear 4.5s infinite;
     animation: drive 10s linear 4.5s infinite;
-}
-
-@-webkit-keyframes drive {
-    0% {left: 85%}
-    100% {left: 5%}
 }
 @keyframes drive {
     0% {left: 85%}
     100% {left: 5%}
-}
-/********************************SOCIAL MEDIA*/
-.social-media li {
-    font-size: 3em;
-}
-.social-media a {
-    color: #339999;
 }

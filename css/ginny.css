@@ -3,95 +3,54 @@ GINNY PAGE STYLING
 *********************************/
 
 /********************************MAIN PICTURE*/
-#mainPic { 
+.jumbotron { 
     background-color: #990033; /*hot pink*/
     border-top: 3px solid #5C001F; /*darker pink*/
     border-bottom: 3px solid #5C001F; /*darker pink*/
-    text-align: center;
 }
 .MainPhoto {
     border: 3px solid #5C001F; /*darker pink*/
 }
-
-/*******************************FONTS*/
-h2 {
-    color: #5C001F; /*darker pink*/
-} 
-.ginny-web p,
-#ginny-movies p {
-    font-size: 1.25em;
-    margin: 1% 10%;
+/********************************FONTS*/
+.list-group {
+    font-size: 0.9rem;
 }
-.movie-title {
-    color: #5C001F; /*darker pink*/
-}
-#ginny-rec-section h2 {
-    font-size: 2.75em;
-}
-/*******************************LINKS*/
-.ginny-web a {
-    color: #5C001F; /*darker pink*/
-}
-.ginny-web a:hover {
-    color: #990033; /*hot pink*/;
-}
-#imdb-link a {
-    font-size: 1.25em;
-    color: #5C001F; /*darker pink*/
-}
-#imdb-link a:hover {
-    color: #990033; /*hot pink*/;
-}
-.social-media a {
+/********************************COLORS*/
+#imdb-link a,
+h2,
+h4,
+.social-media-icon {
     color: #990033; /*hot pink*/
-} 
-/*******************************CODE PROJECTS*/
-.ginny-web {
-    margin: 2% 5%;
 }
-.ginny-web ul {
-    margin: 2% 5%;
-    color: #999;
-    font-size: 1.25em;
-    text-align: center;
+#games a:hover,
+#websites a {
+    color: #1F5C5C; /*darker teal*/
 }
-
-/*******************************MOVIE POSTERS*/
-.card {
-    width: 27%;
-    padding: 0;
-    margin-left: 3%;
+#games a,
+#imdb-link a:hover,
+#websites a:hover,
+.social-media p,
+.social-media-icon:hover {
+    color: #5C001F; /*darker pink*/
 }
-.card,
-.poster,
+/********************************MOVIE POSTERS*/
+.movie-title {
+    font-size: 1.5rem;
+    color: #990033; /*hot pink*/;
+}
+.movie-details a {
+    color: #1F5C5C; /*darker teal*/
+}
+.movie-details a:hover {
+    color: #5C001F; /*darker pink*/
+}
+.side-a img,
 .side-b {
-    height: 35em;
-}
-#ginny-poster-section {
-    height: 35em;
-}
-.side-a img {
     border: 1px solid #5C001F; /*darker pink*/
 }
-.side-b {
-    width: 90%;
+/********************************RECOMMENDATIONS*/
+#ginny-recs img {
+    width: 100px;
+    height: 100px;
     border: 1px solid #5C001F; /*darker pink*/
-} 
-#imdb-link {
-    height: 8em;
 }
-#imdb-link p {
-    margin: 0;
-    padding: 1em 0;
-}
-
-/*******************************RECS SECTION*/ 
-#ginny-rec-section {
-    font-size: 0.75em;
-}
-#ginny-rec-section img {
-    width: 150px;
-    height: 150px;
-    border: 1px solid #990033; /*hot pink*/
-}
-
