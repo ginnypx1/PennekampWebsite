@@ -15,20 +15,28 @@ GINNY PAGE STYLING
 .list-group {
     font-size: 0.9rem;
 }
+/********************************APPS*/
+#skills,
+.work-samples {
+    margin: 0 auto;
+}
+.app-box img {
+    border: 1px solid #FEB82F;
+}
 /********************************COLORS*/
+#ginny-dev a:hover {
+    color: #FA6302; /*orange*/
+}
 #imdb-link a,
 h2,
 h4,
 .social-media-icon {
     color: #990033; /*hot pink*/
 }
-#games a:hover,
-#websites a {
-    color: #1F5C5C; /*darker teal*/
+#ginny-dev a {
+    color: #FEB82F; /* gold */
 }
-#games a,
 #imdb-link a:hover,
-#websites a:hover,
 .social-media p,
 .social-media-icon:hover {
     color: #5C001F; /*darker pink*/
